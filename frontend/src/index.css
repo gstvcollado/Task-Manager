@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+input,
+textarea {
+  display: block;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  display: inline-block;
+  padding: 7px 20px;
+}
+table {
+  border-collapse: collapse; /* Une los bordes para un mejor estilo */
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc; /* Bordes grises para mejor contraste */
+  padding: 8px;
+}
+
+thead {
+  background-color: #f3f4f6; /* Color de fondo para la cabecera */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.tituloPrincipal {
+  color: #2e6030;
+  text-align: center;
+}
+.tituloSecundario {
+  color: #45a049;
+  text-align: center;
+}
